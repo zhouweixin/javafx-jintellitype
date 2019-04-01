@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.zhou.jintellitypedemo.DemoController"
+            prefHeight="400.0" prefWidth="600.0">
+    <HBox spacing="20">
+        <Button text="最小化(ALT+S)" onAction="#minAction"></Button>
+        <Button text="退出(ALT+Q)" onAction="#existAction"></Button>
+    </HBox>
+
+</FlowPane>
